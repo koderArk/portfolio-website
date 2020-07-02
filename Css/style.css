@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.front {
+	background-color: gold;
+    position: relative;
+    padding: auto;
+  }
+
+.news {
+	color: white;
+}
+ 
+.wel{
+	text-align: center;
+} 
+
+h1 {
+	margin-top: 250px;
+	
+	color: teal;
+	font-family: poppins, serif;
+	font-size: 80px;
+	font-weight: 400px;
+}
+
+h2 {
+	color: olive;
+	font-family: comic sans, cursive;
+	font-size: 30px;
+	font-weight: 400px;
+}
+
+.middle {
+    background-color: white;  
+    font-weight: 400px;
+    text-align: center;
+    align-content: center;
+}
+
+.intro {
+	text-align: center;
+}
+
+h3 {
+	color: teal;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+
+.ak {
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-top: 40px;
+}
+
+h4 {
+	margin-top: 10px;
+	font-family: Bradley Hand, cursive;
+	font-size: 25px;
+	color: teal;
+}
+
+.bio {
+	text-align: center;
+	margin-top: 20px;
+    font-family: Gill Sans, sans-serif;
+    font-size: 20px;
+    line-height: 2;
+
+}
+
+.a {
+	margin-top: 80px;
+	margin-left: 710px;
+	border-style: none;
+	border-top-style: dotted;
+	border-color: grey;
+	border-width: 5px;
+	width: 5%;
+}
+
+.interests {
+    margin-top: 20px;
+}    
+.interests-row {    
+	width:50%;
+    margin: 100px auto 100px auto;
+    text-align:left;
+    margin-top: 80px;
+}
+.webdev {
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+h5 {
+	color: teal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.design {
+    font-size: 20px;
+    margin: 5px;
+    font-family: "poppins",serif;
+}
+
+.java{
+    float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+
+h6{
+	color: teal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.pro{
+	font-size: 20px;
+	margin:5px;
+	font-family: "poppins",serif;
+}
+
+
+
+.contact{
+   
+}
+.form {
+	margin-top: 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.cname {
+    border-style: ridge;
+    border-radius: 4px;
+    line-height: 2;
+}
+
+.cquery {
+	border-style: ridge;
+    border-radius: 4px;
+    line-height: 4;
+}
+
+.csubmit {
+    background-color: teal;
+    border-color: teal;
+    color: rgb(226,226,226);
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.csubmit:hover {
+	background-color: black;
+}
+
+.footer {
+	margin-top: 80px;
+	padding: 20px;
+	background-color: black;
+	text-align: center;
+}
+
+.footer-links {
+	color: green;
+	margin: 60px;
+	font-weight: 400;
+	font-family: poppins,serif;
+	text-decoration: none;
+}
+
+.footer-links:hover {
+	color: white;
+}
+
+.refer {
+	margin-top: 10px;
+	letter-spacing: 2px;
+	font-size: medium;
+	font-family: poppins,serif;
+	color: rgb(226,226,226);
+}
+
+@media screen and (max-width: 768px){
+    h1{
+    	font-size: 60px;
+    }
+    .webdev{
+    	margin-left: -15px;
+    	float: none;
+    }
+    h5{
+    	
+    }
+    .java{
+    	margin-left: -10px;
+    	float: none;
+    }
+    h6{
+    }
+    .design,.pro{
+        font-family: 'poppins', serif;
+    }
+    .footer-links{
+        margin: 10px;
+    }
+    .a{
+    	margin-left: 190px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+   .a{
+   	opacity: 0;
+   }
+}
