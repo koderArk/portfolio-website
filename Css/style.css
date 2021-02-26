@@ -3,14 +3,14 @@
 	padding: 0;
 }
 .front {
-	background-color: whitesmoke;
+	background-color: white;
 	height: 100vh;
         background-position: relative;
         padding: auto;
   }
 
 .news {
-	color: tomato;
+	color: rgb(0,0,0);
 }
  
 #wlcm{
@@ -20,14 +20,14 @@
 } 
 
 h1 {
-	color: #000;
+	color: rgb(0,0,0);
 	font-family: poppins, serif;
 	font-size: 80px;
 	font-weight: 400px;
 }
 
 h2 {
-	color: #000;
+	color: rgb(0,0,0);
 	font-family: comic sans, cursive;
 	font-size: 30px;
 	font-weight: 400px;
