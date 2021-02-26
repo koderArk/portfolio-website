@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .front {
-	background-color: gold;
+	background-color: whitesmoke;
 	height: 100vh;
         background-position: relative;
         padding: auto;
@@ -20,14 +20,14 @@
 } 
 
 h1 {
-	color: teal;
+	color: #000;
 	font-family: poppins, serif;
 	font-size: 80px;
 	font-weight: 400px;
 }
 
 h2 {
-	color: olive;
+	color: #000;
 	font-family: comic sans, cursive;
 	font-size: 30px;
 	font-weight: 400px;
