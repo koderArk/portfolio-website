@@ -25,10 +25,10 @@ nav{
    font-family: 'Poppins', sans-serif;
 }
 
-.logo{
+.logo h1{
    color: rgb(9, 89, 194);
-   font-size: 10px;
-   font-family: 'Dancing Script', cursive;
+   font-size: 20px;
+   font-family: 'Zilla Slab Highlight', cursive;
 }
 
 .nav-links{
