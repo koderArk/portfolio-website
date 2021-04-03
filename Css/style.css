@@ -24,7 +24,7 @@ nav{
 }
 
 .logo h1{
-   color: rgb(9, 89, 194);
+   color: rgb(0,0,0);
    font-size: 20px;
    font-family: 'Zilla Slab Highlight', cursive;
 }
@@ -71,6 +71,7 @@ nav{
     
     body{
         overflow-x: hidden;
+	overflow-y: hidden;
     }
    .nav-links{
 	   position: absolute;
